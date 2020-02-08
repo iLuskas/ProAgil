@@ -1,0 +1,11 @@
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.deps.json
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.dll
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.pdb
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Domain.dll
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Domain.pdb
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csprojAssemblyReference.cache
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.AssemblyInfoInputs.cache
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.AssemblyInfo.cs
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csproj.CopyComplete
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.dll
+C:\Users\Lucaum-PC\Desktop\VScodeProjects\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.pdb
