@@ -29,7 +29,7 @@ namespace ProAgil.API.Controllers
             }
             catch (System.Exception)
             {        
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou");                       
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou - método GETALL");                       
             }            
         }
 
@@ -43,7 +43,7 @@ namespace ProAgil.API.Controllers
             catch (System.Exception)
             {
                 
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou"); 
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou - método GETBYID"); 
             }
         }
 
@@ -57,7 +57,7 @@ namespace ProAgil.API.Controllers
             catch (System.Exception)
             {
                 
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou"); 
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou - método GETBYTEMA"); 
             }
         }
 
@@ -74,13 +74,13 @@ namespace ProAgil.API.Controllers
             catch (System.Exception)
             {
                 
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou"); 
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou - método POST"); 
             }
 
             return BadRequest();
         }
 
-         [HttpPut]
+         [HttpPut("{Eventoid}")]
         public async Task<ActionResult> Put(int EventoId, Evento model)
         {
             try
@@ -97,13 +97,13 @@ namespace ProAgil.API.Controllers
             catch (System.Exception)
             {
                 
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou"); 
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou - método PUT"); 
             }
 
             return BadRequest();
         }
 
-       [HttpDelete]
+       [HttpDelete("{Eventoid}")]
         public async Task<ActionResult> Delete(int EventoId)
         {
             try
@@ -120,7 +120,7 @@ namespace ProAgil.API.Controllers
             catch (System.Exception)
             {
                 
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou"); 
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados Falhou - método DELETE"); 
             }
 
             return BadRequest();
